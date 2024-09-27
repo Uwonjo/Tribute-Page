@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f7f4; /* Beige background */
+    color: #333; /* Dark grey text */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Main container */
+  #main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  /* Title */
+  #title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4e342e; /* Dark brown */
+    margin-bottom: 15px;
+  }
+  
+  /* Image styling */
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #d7ccc8; /* Light beige border */
+  }
+  
+  /* Image caption */
+  #img-caption {
+    text-align: center;
+    margin-top: 10px;
+    color: #6d4c41; /* Mid brown text */
+  }
+  
+  #img-caption h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #4e342e; /* Dark brown */
+  }
+  
+  #img-caption p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #757575; /* Grey */
+  }
+  
+  /* Tribute info */
+  #tribute-info {
+    background-color: #f0ebe5; /* Light beige section */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #424242; /* Darker grey for text */
+  }
+  
+  /* Link styling */
+  #tribute-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #795548; /* Warm brown */
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #tribute-link:hover {
+    background-color: #5d4037; /* Darker brown on hover */
+  }
+  
